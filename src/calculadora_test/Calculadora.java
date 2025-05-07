@@ -18,4 +18,12 @@ public class Calculadora {
         suma = a + b;
         return suma;
     }
+    
+    public int dividir (int a, int b){
+        if(b==0){
+            throw new ArithmeticException("No se puede dividir entre 0");
+        }
+        suma = a / b;
+        return suma;
+    }
 }
