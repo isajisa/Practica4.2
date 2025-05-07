@@ -18,4 +18,7 @@ public class Calculadora {
         suma = a + b;
         return suma;
     }
+    public double multipicacion(double a, double b){
+        return a*b;
+    }
 }
