@@ -18,13 +18,10 @@ public class Calculadora {
         suma = a + b;
         return suma;
     }
-<<<<<<< HEAD
     
     private int restar=0;
     public int restar(int a, int b) {
         restar = a - b;
         return restar;
     }
-=======
->>>>>>> 1d30d015732efdb4ac28e92d83a9488a68a2f86b
 }
