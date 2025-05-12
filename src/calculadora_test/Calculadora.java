@@ -18,7 +18,7 @@ public class Calculadora {
         suma = a + b;
         return suma;
     }
-<<<<<<< HEAD
+
     public double multipicacion(double a, double b){
         return a*b;
     }
@@ -35,12 +35,12 @@ public class Calculadora {
            
         
     
-=======
+
     
     private int restar=0;
     public int restar(int a, int b) {
         restar = a - b;
         return restar;
     }
->>>>>>> b8b864562d827f93a016bfd63e4a34893e37de83
+
 }
