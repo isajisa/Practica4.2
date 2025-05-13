@@ -12,10 +12,14 @@ public class main {
     public static void main(String[] args) {
         
         Calculadora calc=new Calculadora();
+        
         System.out.println("-----Prueba método multiplicación-----");
         System.out.println("multiplación de 2x50 :" +calc.multipicacion(2, 50));
         System.out.println("-----Prueba método factorial----- ");
         System.out.println(" factorial de 5 :"+calc.factorial(5));
+        
+        System.out.println("-----Prueba método division-----");
+        System.out.println("division de 2x50 : " + calc.dividir(10, 5));
        
     }
     

@@ -9,9 +9,7 @@ package calculadora_test;
  * @author isajisa
  */
 public class Calculadora {
-    public static void main(String[] args) {
-        
-    }
+    
     private int suma=0;
     
     public int suma(int a, int b){
