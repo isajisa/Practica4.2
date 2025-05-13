@@ -18,6 +18,7 @@ public class Calculadora {
         suma = a + b;
         return suma;
     }
+
     
     public int dividir (int a, int b){
         if(b==0){
@@ -27,4 +28,31 @@ public class Calculadora {
         return suma;
     }
     
+
+
+    public double multipicacion(double a, double b){
+        return a*b;
+    }
+    public int factorial(int a){
+        if (a<0){
+            throw new  IllegalArgumentException("El número tiene que ser un entero positivo");
+        }
+        if(a==1){
+            return 1;
+        }
+       
+        return a*factorial(a-1);
+    }
+           
+        
+    
+
+    
+    private int restar=0;
+    public int restar(int a, int b) {
+        restar = a - b;
+        return restar;
+    }
+
+
 }
